@@ -24,14 +24,20 @@ export const ThirdPage = () => {
           <ThirdPageBlock
             className="uniqueone"
             ImageSrc={SvgRing}
-            number={"12:00"}
+            number={"10:30"}
+            bigText="ՓԵՍԱՅԻ ՏՈՒՆ"
+          />
+          <ThirdPageBlock
+            // className="uniqueone"
+            ImageSrc={SvgRing}
+            number={"12:30"}
             bigText="ՀԱՐՍԻ ՏՈՒՆ"
           />
           <ThirdPageBlock
             ImageSrc={SvgChurch}
-            number={"15:45"}
+            number={"14:00"}
             bigText="ՊՍԱԿԱԴՐՈՒԹՅՈՒՆ"
-            smallText="Հովհաննավանք եկեղեցի"
+            smallText="Սուրբ Հովհաննես եկեղեցի"
           />
           <ThirdPageBlock
             className="secondBlock"
@@ -39,19 +45,19 @@ export const ThirdPage = () => {
             ImageSrc={SvgCouple}
             number={"17:00"}
             bigText="ՀԱՐՍԱՆՅԱՑ ՀԱՆԴԻՍՈՒԹՅՈՒՆ"
-            smallText="Աշտարակ Հոլ ռեստորան"
+            smallText="Morena White"
           />
         </ThirdPagePartContext>
         <ForthPagePartContext>
           <ForthPageBlock
             ImageSrc={Church}
-            bigText={"Հովհաննավանք եկեղեցի"}
-            mapSrc={"https://yandex.com/maps/org/224495205780?"}
+            bigText={"Սուրբ Հովհաննես եկեղեցի"}
+            mapSrc={"https://maps.app.goo.gl/8Y1xDKHex5U2G44q6"}
           />
           <ForthPageBlock
             ImageSrc={Restaurant}
-            bigText={"Աշտարակ Հոլ ռեստորան"}
-            mapSrc={"https://yandex.com/maps/org/100881804174?"}
+            bigText={"Morena White Ռեստորան"}
+            mapSrc={"https://maps.app.goo.gl/i7niD5n9aQVM2zBX6"}
           />
         </ForthPagePartContext>
       </Container>
@@ -61,7 +67,7 @@ export const ThirdPage = () => {
           <h3 className="dzev">Սիրով սպասում ենք</h3>
           <hr />
           <h3 className="dzev">Պահպանիր Օրը</h3>
-          <h3>Հուլիս</h3>
+          <h3>Հունիս</h3>
         </ThirdPagePartMini>
         <ThirdPagePartCalendar>
           {[...Array(35)].map((_, i) =>

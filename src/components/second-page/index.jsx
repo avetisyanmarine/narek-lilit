@@ -22,7 +22,7 @@ export const SecondPage = () => {
           alt="Photo 1"
           className="rounded-[15px]"
         />
-        <h2>04.07.2026</h2>
+        <h2>04.06.2026</h2>
       </Container>
     </SecondPagePart>
   );

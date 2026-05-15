@@ -4,7 +4,7 @@ import { Flexible } from "../../../GlobalStyle";
 export const ThirdPageBlockPart = styled(Flexible)`
   justify-content: start;
   gap: 40px;
-  margin-top: 120px;
+  margin-top: 150px;
 `;
 export const ThirdPageBlockPartSvg = styled.div`
   position: relative;

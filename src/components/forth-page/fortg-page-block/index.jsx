@@ -3,7 +3,7 @@ export const ForthPageBlock = ({ ImageSrc, bigText, mapSrc }) => {
   return (
     <>
       <ForthPageBlockPart>
-        <h2>{bigText}</h2>
+        <h2 className="text-center">{bigText}</h2>
         <img
           loading="lazy"
           data-aos="fade-right"
