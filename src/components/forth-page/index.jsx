@@ -10,7 +10,11 @@ export const ForthPage = () => {
     <ForthPagePart>
       <Container>
         <div className="relative">
-          <img src={PHoto3} alt="Photo 3" className="rounded-[15px] grayscale brightness-80" />
+          <img
+            src={PHoto3}
+            alt="Photo 3"
+            className="rounded-[15px] grayscale brightness-80"
+          />
           <img
             className="absolute top-1.5 left-1.5 w-[100px]"
             src={SaveTheDate}
@@ -29,7 +33,6 @@ export const ForthPage = () => {
           >
             Ձեզ հետ բերեք ՍԵՐ, ժպիտներ ու անսահման դրական էմոցիաներ. ինչպես նաև
             հարմարավետ կոշիկներ` պարելու համար:
-           
           </Flexible>
         </Flexible>
       </div>
@@ -40,6 +43,7 @@ export const ForthPage = () => {
         >
           Սիրով ՝ <br /> Նարեկ և Լիլիթ
         </h2>
+        <p className="text-[20px] text-center " style={{marginTop: "50px"}}>Խնդրում ենք հաստատել Ձեր մասնակցությունը մինչև 26.06.26</p>
       </Container>
     </ForthPagePart>
   );
