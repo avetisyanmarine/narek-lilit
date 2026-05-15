@@ -52,7 +52,7 @@ export const ThirdPage = () => {
           <ForthPageBlock
             ImageSrc={Church}
             bigText={"Սուրբ Հովհաննես եկեղեցի"}
-            mapSrc={"https://maps.app.goo.gl/8Y1xDKHex5U2G44q6"}
+            mapSrc={"https://yandex.ru/maps/org/131197365755"}
           />
           <ForthPageBlock
             ImageSrc={Restaurant}
