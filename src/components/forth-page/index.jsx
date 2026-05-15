@@ -43,7 +43,7 @@ export const ForthPage = () => {
         >
           Սիրով ՝ <br /> Նարեկ և Լիլիթ
         </h2>
-        <p className="text-[20px] text-center " style={{marginTop: "50px"}}>Խնդրում ենք հաստատել Ձեր մասնակցությունը մինչև 26.06.26</p>
+        <p className="text-[20px] text-center " style={{marginTop: "50px"}}>Խնդրում ենք հաստատել Ձեր մասնակցությունը մինչև 26.05.26</p>
       </Container>
     </ForthPagePart>
   );
